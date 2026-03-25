@@ -198,6 +198,23 @@ Health check endpoint.
 
 ---
 
+## Working Demo:
+
+![App Screenshot](ss/2.jpg)
+
+---
+
+![App Screenshot](ss/3.jpg)
+
+---
+
+![App Screenshot](ss/4.jpg)
+
+---
+
+![App Screenshot](ss/5.jpg)
+
+---
 <div align="center">
 
 **Dissect** — Stress-test your ideas before the world does.
