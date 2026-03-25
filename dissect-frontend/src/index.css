@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F5ECD7;
+  color: #1A1A1A;
+  min-height: 100vh;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-crimson hover:bg-crimson-dark text-white font-semibold py-3 px-8 rounded-card transition-all duration-300 shadow-card hover:shadow-card-hover;
+  }
+
+  .card {
+    @apply bg-white rounded-card shadow-card p-6;
+  }
+
+  .input-field {
+    @apply w-full p-4 rounded-card border-2 border-border bg-white text-text-primary placeholder-text-secondary focus:outline-none focus:border-crimson transition-colors;
+  }
+
+  .streaming-dot {
+    @apply inline-block w-2 h-2 bg-crimson rounded-full animate-pulse;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.4s ease-out forwards;
+}
+
+.skeleton {
+  @apply animate-pulse bg-gray-200 rounded;
+}
+
+.prose {
+  line-height: 1.7;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+}
+
+.prose strong {
+  font-weight: 600;
+  color: #1A1A1A;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5ECD7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8D5B5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B5293A;
+}
