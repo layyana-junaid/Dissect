@@ -23,6 +23,8 @@ Four adversarial AI agents tear your idea apart. One rebuilds it stronger.
 
 <br/>
 
+![App Screenshot](ss/1.jpg)
+
 </div>
 
 ---
