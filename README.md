@@ -31,68 +31,8 @@ Four adversarial AI agents tear your idea apart. One rebuilds it stronger.
 
 <div align="center">
 
-<svg width="700" height="380" viewBox="0 0 700 380" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="700" height="380" fill="#FAFAFA"/>
+  <img width="1489" height="602" alt="image" src="https://github.com/user-attachments/assets/0a1cad1d-f26a-40c7-81c1-27530e0b6a97" />
 
-  <!-- Input Node -->
-  <rect x="275" y="20" width="150" height="50" rx="8" fill="#FFFFFF" stroke="#B5293A" stroke-width="2"/>
-  <text x="350" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A1A">User Idea Input</text>
-
-  <!-- Arrow from Input to Parallel -->
-  <path d="M350 70 L350 100" stroke="#B5293A" stroke-width="2" marker-end="url(#arrowhead)"/>
-
-  <!-- Parallel Execution Box -->
-  <rect x="50" y="110" width="600" height="130" rx="12" fill="#FFFFFF" stroke="#B5293A" stroke-width="2" stroke-dasharray="8,4"/>
-  <text x="350" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B6B6B">PARALLEL EXECUTION</text>
-
-  <!-- Agent 1: Technical Skeptic -->
-  <rect x="70" y="150" width="130" height="70" rx="6" fill="#FFFFFF" stroke="#2D4A8A" stroke-width="2"/>
-  <text x="135" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2D4A8A">Technical</text>
-  <text x="135" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2D4A8A">Skeptic</text>
-  <text x="135" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B6B6B">Feasibility</text>
-
-  <!-- Agent 2: Market Critic -->
-  <rect x="220" y="150" width="130" height="70" rx="6" fill="#FFFFFF" stroke="#B5293A" stroke-width="2"/>
-  <text x="285" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#B5293A">Market</text>
-  <text x="285" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#B5293A">Critic</text>
-  <text x="285" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B6B6B">Viability</text>
-
-  <!-- Agent 3: Ethics Advocate -->
-  <rect x="370" y="150" width="130" height="70" rx="6" fill="#FFFFFF" stroke="#6B3A8A" stroke-width="2"/>
-  <text x="435" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#6B3A8A">Ethics</text>
-  <text x="435" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#6B3A8A">Advocate</text>
-  <text x="435" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B6B6B">Risks</text>
-
-  <!-- Agent 4: Lazy User -->
-  <rect x="520" y="150" width="130" height="70" rx="6" fill="#FFFFFF" stroke="#2A7A4B" stroke-width="2"/>
-  <text x="585" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2A7A4B">Lazy User</text>
-  <text x="585" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2A7A4B">Tester</text>
-  <text x="585" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B6B6B">UX Friction</text>
-
-  <!-- Arrows from Agents to Synthesis -->
-  <path d="M135 220 L135 260 L300 280" stroke="#B5293A" stroke-width="2"/>
-  <path d="M285 220 L285 260 L320 280" stroke="#B5293A" stroke-width="2"/>
-  <path d="M435 220 L435 260 L380 280" stroke="#B5293A" stroke-width="2"/>
-  <path d="M585 220 L585 260 L400 280" stroke="#B5293A" stroke-width="2"/>
-
-  <!-- Convergence Point -->
-  <circle cx="350" cy="280" r="8" fill="#B5293A"/>
-
-  <!-- Arrow to Synthesis -->
-  <path d="M350 288 L350 310" stroke="#B5293A" stroke-width="2" marker-end="url(#arrowhead)"/>
-
-  <!-- Synthesis Agent -->
-  <rect x="250" y="315" width="200" height="50" rx="8" fill="#B5293A" stroke="#8B1A28" stroke-width="2"/>
-  <text x="350" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Synthesis Agent</text>
-
-  <!-- Arrow definitions -->
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#B5293A"/>
-    </marker>
-  </defs>
-</svg>
 
 </div>
 
@@ -253,31 +193,6 @@ Health check endpoint.
 ```json
 {"status": "healthy", "service": "dissect-api"}
 ```
-
----
-
-## Design System
-
-| Token | Value | Usage |
-|-------|-------|-------|
-| Background | `#F5ECD7` | Page background |
-| Primary | `#B5293A` | CTAs, accents, branding |
-| Primary Dark | `#8B1A28` | Hover states |
-| Card | `#FFFFFF` | Card backgrounds |
-| Text Primary | `#1A1A1A` | Headings, body |
-| Text Secondary | `#6B6B6B` | Muted text |
-| Border | `#E8D5B5` | Card borders |
-| Technical | `#2D4A8A` | Technical Skeptic accent |
-| Market | `#B5293A` | Market Critic accent |
-| Ethics | `#6B3A8A` | Ethics Advocate accent |
-| UX | `#2A7A4B` | Lazy User Tester accent |
-| Gold | `#C9973A` | Synthesis accent |
-
----
-
-## License
-
-MIT
 
 ---
 
